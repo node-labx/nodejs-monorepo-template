@@ -1,0 +1,29 @@
+{
+  "name": "@packages-group-1/example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test": "jest --config ./jest.config.js --coverage",
+    "test:watch": "jest --config ./jest.config.js --coverage --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/node-labx/nodejs-monorepo-template"
+  },
+  "keywords": [
+    "example"
+  ],
+  "author": "wanggan",
+  "bugs": {
+    "url": "https://github.com/node-labx/nodejs-monorepo-template/issues"
+  },
+  "files": [
+    "lib",
+    "CHANGELOG.md",
+    "README.md",
+    "README.en.md"
+  ]
+}

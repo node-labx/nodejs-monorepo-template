@@ -1,0 +1,3 @@
+packages:
+  - 'packages-group-1/*'
+  - 'packages-group-2/*'
